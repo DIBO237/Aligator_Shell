@@ -1,4 +1,4 @@
-# Aligator-
+# Aligator shell
 it is based on python 3.7
 
 <h3># Requirements:</h3>
